@@ -1,28 +1,28 @@
 class Dew < Formula
   desc "Ultra-lightweight VM + deploy tool. One Go binary for local dev and production."
   homepage "https://dewvm.dev"
-  version "0.7.18"
+  version "0.7.19"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solcreek/dew/releases/download/v0.7.18/dew_0.7.18_darwin_arm64.tar.gz"
-      sha256 "cf5b100cce961d09c6f9b53fe0ef0114c6c02b7c333d81ea74614861430c779f"
+      url "https://github.com/solcreek/dew/releases/download/v0.7.19/dew_0.7.19_darwin_arm64.tar.gz"
+      sha256 "f26106d7968f765b5614a9262222781b611d666bdc43190fdff228eae187b0df"
     end
     on_intel do
-      url "https://github.com/solcreek/dew/releases/download/v0.7.18/dew_0.7.18_darwin_amd64.tar.gz"
-      sha256 "bf7cc3a08338d3080294501de8a0d6a9915c278ceb37083ad6b0798b00c53353"
+      url "https://github.com/solcreek/dew/releases/download/v0.7.19/dew_0.7.19_darwin_amd64.tar.gz"
+      sha256 "e3dc4f9325748b748dc8d60d4f5a434162b34692613cfa8868248fa4f0f12882"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solcreek/dew/releases/download/v0.7.18/dew_0.7.18_linux_arm64.tar.gz"
-      sha256 "cf246ba1a16adb55c4102de32d16632a9553be8fdf80ba63ce541d5ceb64b6eb"
+      url "https://github.com/solcreek/dew/releases/download/v0.7.19/dew_0.7.19_linux_arm64.tar.gz"
+      sha256 "c56e7397a21bb7b47a1a6aabcb5bde80718be46efef9273e556f6cc61fb47c6a"
     end
     on_intel do
-      url "https://github.com/solcreek/dew/releases/download/v0.7.18/dew_0.7.18_linux_amd64.tar.gz"
-      sha256 "da58fa0e3b8c63bb4e5c3e5d147688d131333d9cb4efe32d876d0f0f887fa7e9"
+      url "https://github.com/solcreek/dew/releases/download/v0.7.19/dew_0.7.19_linux_amd64.tar.gz"
+      sha256 "e1a16b6ae16dd35dd1bf10dd34fa8ed9e4e0e287fae86f53c7d97d2fa615d0aa"
     end
   end
 
