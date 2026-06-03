@@ -1,28 +1,28 @@
 class Dew < Formula
   desc "Sandbox Linux compute on macOS — no Docker, no VPN, agent-friendly"
   homepage "https://dewvm.dev"
-  version "0.7.26"
+  version "0.7.27"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solcreek/dew/releases/download/v0.7.26/dew_0.7.26_darwin_arm64.tar.gz"
-      sha256 "11a5d78bc6895460520f41562c90adf9c1afcc351ecb8094a186cc5e9098155c"
+      url "https://github.com/solcreek/dew/releases/download/v0.7.27/dew_0.7.27_darwin_arm64.tar.gz"
+      sha256 "cd58ab5b6a0a4d0fa3532e3b676b746e5e18eaed8f9267f963e08bf00ac3ded2"
     end
     on_intel do
-      url "https://github.com/solcreek/dew/releases/download/v0.7.26/dew_0.7.26_darwin_amd64.tar.gz"
-      sha256 "625cf97101d7e4394283b92c5f388be8748b30133e42a3e0aa2af82647846684"
+      url "https://github.com/solcreek/dew/releases/download/v0.7.27/dew_0.7.27_darwin_amd64.tar.gz"
+      sha256 "f6978f4208408f1883c5121c55f2dda0ab119c04203a6dc3c6e1548e6119e12c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solcreek/dew/releases/download/v0.7.26/dew_0.7.26_linux_arm64.tar.gz"
-      sha256 "015bb27b204281dbc8ce48e8e68728aa333ad04c57706da490be5ee26a44a2c6"
+      url "https://github.com/solcreek/dew/releases/download/v0.7.27/dew_0.7.27_linux_arm64.tar.gz"
+      sha256 "ea03e176871b87776eb7a8e2afd97367b0859bff7ea36028909682994ab2ebc6"
     end
     on_intel do
-      url "https://github.com/solcreek/dew/releases/download/v0.7.26/dew_0.7.26_linux_amd64.tar.gz"
-      sha256 "7fca90899b32bbe0793d0f7ecebfe34fae4ec6615a1d6ef3c21b16a0d8f0cd97"
+      url "https://github.com/solcreek/dew/releases/download/v0.7.27/dew_0.7.27_linux_amd64.tar.gz"
+      sha256 "f59bd1760f7f963a828dc6daec8c9830fe0921329902da3f05fd73ab28254f4a"
     end
   end
 
